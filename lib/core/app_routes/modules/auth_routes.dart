@@ -1,6 +1,6 @@
 import 'package:go_router/go_router.dart';
-import '../../../features/auth/presentation/auth_screen/ui/login_screen.dart';
-import '../../../features/auth/presentation/auth_screen/ui/register_screen.dart';
+import '../../../features/authentication/presentation/auth_screen/ui/login_screen.dart';
+import '../../../features/authentication/presentation/auth_screen/ui/register_screen.dart';
 import '../routes_constants.dart';
 
 class AuthRoutes {

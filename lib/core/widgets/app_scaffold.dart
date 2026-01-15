@@ -24,9 +24,7 @@ class AppScaffold extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: SystemUiOverlayStyle(
-        statusBarIconBrightness: Brightness.light,
-      ),
+      value: SystemUiOverlayStyle(statusBarIconBrightness: Brightness.light),
       child: SafeArea(
         child: Scaffold(
           body: body,

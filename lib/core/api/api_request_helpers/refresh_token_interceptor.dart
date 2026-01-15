@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-import '../../../features/auth/data/model/login_response_model.dart';
+import '../../../features/authentication/data/model/login_response_model.dart';
 import '../../helpers/shared_preference/preference_helper.dart';
 import '../../helpers/shared_preference/preference_keys.dart';
 import 'api_consumer.dart';
