@@ -1,0 +1,50 @@
+name: flutter_base_template
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management & Logic
+  flutter_bloc: ^9.1.1
+  bloc_concurrency: ^0.3.0
+  fpdart: ^1.2.0
+  get_it: ^9.2.0
+  equatable: ^2.0.8
+  freezed_annotation: ^3.1.0
+  # Navigation & Network
+  go_router: ^17.0.1
+  dio: ^5.9.0
+
+  # Storage & Utilities
+  intl: ^0.20.2
+  shared_preferences: ^2.5.4
+  flutter_secure_storage: ^10.0.0
+
+  # Debugging (Core UI untuk Talker)
+  talker_flutter: ^5.1.11
+  talker_bloc_logger: ^5.1.11
+  talker_dio_logger: ^5.1.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+  freezed: ^3.2.4
+  build_runner: ^2.10.5
+  json_serializable: ^6.11.4
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/icons/
+    - assets/images/
